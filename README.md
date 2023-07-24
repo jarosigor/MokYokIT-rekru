@@ -7,7 +7,8 @@ Do przetworzenia wejściowego pliku JSON zdecydowałem się skorzystać z biblio
 
 ## Task 2
 Treść zadania: 
-> Zaproponuj zapytanie SQL zwracające ostatni status każdego klienta, z którym były co najmniej 3 próby kontaktu. Potraktuj podesłany plik jako tabelę.<
+> Zaproponuj zapytanie SQL zwracające ostatni status każdego klienta, z którym były co najmniej 3 próby kontaktu. Potraktuj podesłany plik jako tabelę.
+
 Przy pomocy "window functions" (**ROW_NUMBER() OVER..** oraz **COUNT() OVER..**) otrzymuję kolejność każdego statusu kontaktu oraz podliczoną liczbę prób kontaktu. Następnie filtruję dane zgodnie z założeniami.
 
 

@@ -1,2 +1,2 @@
 # MokYokIT-rekru
-Tasks required for recruiitment process.
+>Tasks required for recruiitment process.
